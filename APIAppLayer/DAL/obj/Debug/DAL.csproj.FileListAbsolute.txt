@@ -1,0 +1,14 @@
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\DAL.dll.config
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\DAL.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\DAL.pdb
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\EntityFramework.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\EntityFramework.xml
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.pdb
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.Migrations.InitDB.resources
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

@@ -1,0 +1,12 @@
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\BLL.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\BLL.pdb
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\DAL.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\EntityFramework.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\DAL.pdb
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\DAL.dll.config
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\bin\Debug\EntityFramework.xml
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\obj\Debug\BLL.dll
+E:\Semester-10\.Net\Lab\Final Lab-1\APIAppLayer\BLL\obj\Debug\BLL.pdb
