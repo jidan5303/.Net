@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ZeroHunger.EF.Restaurant>
+
+@{
+    ViewBag.Title = "Available Restaurants";
+}
+
+<h2>RestaurantDetail</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RestaurantName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RestaurantName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            <a href="/Home/FoodDetail/@item.RestaurantID" class="btn btn-success">Collect</a>
+        </td>
+    </tr>
+}
+
+</table>

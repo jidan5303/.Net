@@ -1,0 +1,49 @@
+﻿@model ZeroHunger.EF.Assigned
+
+@{
+    ViewBag.Title = "Proceed";
+}
+
+<h2>Proceed</h2>
+
+<div>
+    <h4>Assigned</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Restaurant name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food.Restaurant.RestaurantName)
+        </dd>
+
+        <dt>
+            Location
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food.Restaurant.Address)
+        </dd>
+
+        <dt>
+            Food Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            Proceeding
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/Employee/Delivered/@Model.ID" class="btn btn-success">Delivered</a>
+</p>

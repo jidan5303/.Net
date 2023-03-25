@@ -1,0 +1,62 @@
+﻿@model ZeroHunger.EF.Food
+
+@{
+    ViewBag.Title = "ConfirmFood";
+}
+
+<h2>Selected Food</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.RestaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.RestaurantName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.Address)
+        </dd>
+
+        <dt>
+           Food Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Qty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Qty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="/Home/AssignEmp/@Model.FoodID" class="btn btn-primary">Assign Employee</a>
+</p>

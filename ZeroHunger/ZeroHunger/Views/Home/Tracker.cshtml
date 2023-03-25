@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ZeroHunger.EF.Track>
+
+@{
+    ViewBag.Title = "Tracker";
+}
+
+<h2>Tracker</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ReqID)
+        </th>
+        <th>
+            Assign date
+        </th>
+        <th>
+            Employee Name
+        </th>
+        <th>
+            Food Name
+        </th>
+        <th>
+            Expire date
+        </th>
+        <th>
+            Restaurant Name
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReqID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.AssignDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.Employee.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.Food.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.Food.ExpDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.Food.Restaurant.RestaurantName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Assigned.Food.Restaurant.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+
+    </tr>
+}
+
+</table>

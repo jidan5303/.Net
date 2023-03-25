@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Welcome to Zero Hunger";
+}
+<h2>@ViewBag.Title</h2>
+@if (TempData["msg"] != null)
+{
+    <p class="alert alert-success">@TempData["msg"]</p>
+}
+
+<p><a href="/Employee/OfferedList" class="btn btn-success">See Available Deliveries</a></p>
+
